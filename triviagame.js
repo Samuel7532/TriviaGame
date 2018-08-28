@@ -1,106 +1,6 @@
-<!DOCTYPE html>
-
-    <html>
-
-    <head>
 
 
-        <script src="../triviaGame/assets/javascript/"></script>
-        <link rel="stylesheet" href="../triviaGame/assets/css/style.css">
-
-    </head>
-
-
-    <body>
-        <h1>Marval Movie Trivia</h1>
-
-        <div class="questions">
-        <p id="question">Who is nicknamed "The First Avenger?"
-        </p>
-        <label><input type="radio" name="q1" value="a1" id="q1a1" /> Captain America</label>
-        <label><input type="radio" name="q1" value="a2" id="q1a2" /> Iron Man</label>
-        <label><input type="radio" name="q1" value="a3" id="q1a3"/> thor</label>
-        <label><input type="radio" name="q1" value="a4" id="q1a4" /> Hulk</label>
-
-        <p id="question">In the second avengers film(2015) who is the main Antagonist?
-            </p>
-            <label><input type="radio" name="q1" value="a1" id="q2a1" /> Loki</label>
-            <label><input type="radio" name="q1" value="a2" id="q2a2" /> Hulk</label>
-            <label><input type="radio" name="q1" value="a3" id="q2a3"/> Ultron</label>
-            <label><input type="radio" name="q1" value="a4" id="q2a4" /> Thanos</label>
-
-
-            <p id="question">Black Panther is the King of _____?
-                </p>
-                <label><input type="radio" name="q1" value="a1" id="q3a1" /> America</label>
-                <label><input type="radio" name="q1" value="a2" id="q3a2" /> New York</label>
-                <label><input type="radio" name="q1" value="a3" id="q3a3"/> Wakanda</label>
-                <label><input type="radio" name="q1" value="a4" id="q3a4" /> Madagascar</label>
-
-                    <p id="question">How many stones did Thanos collect to complete the Infinity Gauntlet?
-                        </p>
-                        <label><input type="radio" name="q1" value="a1" id="q4a1" /> 4</label>
-                        <label><input type="radio" name="q1" value="a2" id="q4a2" /> 5</label>
-                        <label><input type="radio" name="q1" value="a3" id="q4a3"/> 6</label>
-                        <label><input type="radio" name="q1" value="a4" id="q4a4" /> 3</label>
-
-
-                        <p id="question">Who is nicknamed "The Merc with a Mouth?"
-                            </p>
-                            <label><input type="radio" name="q1" value="a1" id="q5a1" /> Deadpool</label>
-                            <label><input type="radio" name="q1" value="a2" id="q5a2" /> Cable</label>
-                            <label><input type="radio" name="q1" value="a3" id="q5a3"/> Iron Man</label>
-                            <label><input type="radio" name="q1" value="a4" id="q5a4" /> Hawkeye</label>
-
-
-                            <p id="question">Loki "The god of _____?"
-                                </p>
-                                <label><input type="radio" name="q1" value="a1" id="q6a1" /> Thunder</label>
-                                <label><input type="radio" name="q1" value="a2" id="q6a2" /> Death</label>
-                                <label><input type="radio" name="q1" value="a3" id="q6a3"/> Love</label>
-                                <label><input type="radio" name="q1" value="a4" id="q6a4" /> Mischief</label>
-
-                                <p id="question">What is "The Winter Soilder's" real name?
-                                    </p>
-                                    <label><input type="radio" name="q1" value="a1" id="q7a1" /> Tony Stark</label>
-                                    <label><input type="radio" name="q1" value="a2" id="q7a2" /> Bucky Barnes </label>
-                                    <label><input type="radio" name="q1" value="a3" id="q7a3"/> Steve Rogers</label>
-                                    <label><input type="radio" name="q1" value="a4" id="q7a4" /> Bruce Banner</label>
-
-                                    <p id="question">What world is Thor from?
-                                        </p>
-                                        <label><input type="radio" name="q1" value="a1" id="q8a1" /> Midgard</label>
-                                        <label><input type="radio" name="q1" value="a2" id="q8a2" /> Ragnarok</label>
-                                        <label><input type="radio" name="q1" value="a3" id="q8a3"/> Asgard </label>
-                                        <label><input type="radio" name="q1" value="a4" id="q8a4" /> Valhalla</label>
-
-                                        <p id="question">The line "I am Groot" is a part of which Marval film?
-                                            </p>
-                                            <label><input type="radio" name="q1" value="a1" id="q9a1" /> Guardians of the Galaxy </label>
-                                            <label><input type="radio" name="q1" value="a2" id="q9a2" /> Deadpool</label>
-                                            <label><input type="radio" name="q1" value="a3" id="q9a3"/> Dr.Stange</label>
-                                            <label><input type="radio" name="q1" value="a4" id="q9a4" /> Spiderman</label>
-
-                                            <p id="question">Which one of these characters is NOT a member of "The Guardians of the Galaxy"
-                                                </p>
-                                                <label><input type="radio" name="q1" value="a1" id="q10a1" /> Drax The Destroyer</label>
-                                                <label><input type="radio" name="q1" value="a2" id="q10a2" /> Gamora</label>
-                                                <label><input type="radio" name="q1" value="a3" id="q10a3"/> Star Lord</label>
-                                                <label><input type="radio" name="q1" value="a4" id="q10a4" /> Ronan</label>
-                                                    </div>
-
-        <br>
-        <button onclick="document.write(score+'/10')" id="start_button">Submit</button>
-
-    </body>
-
-    </html>
-
-
-
-
-
-    <script>
+<script>
         // Variables defined
         var userAnswer;
         var correctAnswerQ1 = "";
@@ -201,7 +101,7 @@
         });
 
         //Question 5 -1
-        document.getElementById("q5a1").addEventListener("click", function() {
+        document.getElementById("q4a1").addEventListener("click", function() {
             var answer1 = document.getElementById("q5a1").checked;
             // var answer2 = document.getElementById("q5a2").checked;
 
