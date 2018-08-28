@@ -1,3 +1,30 @@
+body{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhpK2sy5cBewfZy6mxwsA3mzf1ckagy3koeDaNc_mgnzmMM_nHWg);
+    background-repeat:repeat;
+    background-position-x: 90px;
+    }
+
 .questions {
     text-align: center;
-}
+    margin-left: 270px;
+    margin-right: 270px;
+    background-color: darkred;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border-color:red;
+    border-style: inset;
+    border-width: 3px;
+    }
+ 
+    .button {text-align: center;
+        margin-left: 140px;
+        margin-right: 140px;
+        color:black;
+        padding-bottom: 30px;}
+
+    label{margin-right:5px;
+        margin-left: 5px;
+        margin-top:2px;
+        margin-bottom: 2px;
+    }
+
+    #question{font-size: 25px;
+    color:whitesmoke;}
