@@ -1,6 +1,6 @@
 
 
-<script>
+
         // Variables defined
         var userAnswer;
         var correctAnswerQ1 = "";
@@ -101,7 +101,7 @@
         });
 
         //Question 5 -1
-        document.getElementById("q4a1").addEventListener("click", function() {
+        document.getElementById("q5a1").addEventListener("click", function() {
             var answer1 = document.getElementById("q5a1").checked;
             // var answer2 = document.getElementById("q5a2").checked;
 
@@ -231,4 +231,4 @@
         });
 
 
-    </script>
+    
